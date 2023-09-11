@@ -7,24 +7,26 @@ import { Avatar } from "@mui/material";
 
 export default function Sidebar() {
   return (
-    <div className="cardContainer">
-      <div className="cardWrapper">
-        <div className="cardHeader">
+    <div className="bg-stone-800 flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white">
+      <div className="flex-col justify-center align-middle">
+        <div className="">
           <Avatar
             alt="Acharya Manish"
             // src={}
             // sx={{ width: 24, height: 24 }}
           />
-          <div className="cardHeaderTitle ">
-            <p>Acharya Manish</p>
+          <div className="">
+            <p className="">Acharya Manish</p>
             <p>Full-Stack web developer</p>
           </div>
         </div>
-        <div className="cardBody">
+        <div className="">
           {details?.map((obj) => (
-            <div className="cardDetails" key={obj.title}>
-              <p>{<obj.icon />}</p>
-              <div className="cardDetailsContent">
+            <div className="flex m-1 " key={obj.title}>
+              <p className="p-3 bg-stone-700 border border-stone-900 rounded-md mr-3">
+                {<obj.icon color="#fdd86c" />}
+              </p>
+              <div className="flex-col">
                 <p>{obj.title}</p>
                 <p>{obj.content}</p>
               </div>
