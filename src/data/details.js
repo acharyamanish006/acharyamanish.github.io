@@ -12,7 +12,7 @@ export let details = [
   {
     icon: PhoneAndroidOutlinedIcon,
     title: "Phone",
-    content: "9845321000",
+    content: "0482013532",
   },
   {
     icon: CalendarMonthOutlinedIcon,
