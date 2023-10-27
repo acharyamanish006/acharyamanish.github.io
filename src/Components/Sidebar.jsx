@@ -2,11 +2,22 @@
 import { details } from "../data/details";
 import { mediaHandles } from "../data/mediaHandles";
 import { Avatar } from "@mui/material";
+import DehazeIcon from "@mui/icons-material/Dehaze";
+import { useState } from "react";
 //style
 
 export default function Sidebar() {
+  const [hide, setHide] = useState(false);
+  function hideSideBar() {
+    setHide(() => !hide);
+    // console.log(hide);
+  }
   return (
-    <div className="bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white">
+    <div
+      className={`relative bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:my-8  ${
+        hide ? "px-10" : ""
+      }`}
+    >
       <div className="flex-col justify-center align-middle">
         <div className="flex items-center mb-7 mt-3">
           <section className="bg-light-dark rounded-2xl p-3 mr-5">
@@ -23,7 +34,11 @@ export default function Sidebar() {
             </p>
           </div>
         </div>
-        <main className="border-y border-primary-golden border-opacity-10 py-3 my-2">
+        <main
+          className={` border-y border-primary-golden border-opacity-10 py-3 my-2 ${
+            hide ? "hidden" : ""
+          }`}
+        >
           {details?.map((obj) => (
             <div className="flex m-1 my-5" key={obj.title}>
               <p className="p-3 bg-secondary-black  shadow-secondary-black shadow-sm border border-primary-golden border-opacity-10 rounded-xl mr-3 opacity-90 text-primary-golden">
@@ -36,13 +51,25 @@ export default function Sidebar() {
             </div>
           ))}
         </main>
-        <footer className="flex">
+        <footer
+          className={`flex ${
+            hide
+              ? "border-t border-primary-golden border-opacity-10 py-3 my-2"
+              : ""
+          }`}
+        >
           {mediaHandles.map((handlers) => (
             <p key={handlers.icon} className="mr-3">
               <handlers.icon />
             </p>
           ))}
         </footer>
+        <div
+          className={`absolute top-3 right-4 cursor-pointer text-primary-golden `}
+          onClick={hideSideBar}
+        >
+          <DehazeIcon />
+        </div>
       </div>
     </div>
   );

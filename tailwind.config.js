@@ -6,6 +6,7 @@ export default {
       colors: {
         "light-dark": "#373738",
         "bg-black": "#121212",
+        "nav-black": "rgba(18, 18, 18, 0.747)",
         "text-white": "#FAFAFA",
         "primary-golden": "#FFD16A",
         "primary-black": "#1E1E1F",
