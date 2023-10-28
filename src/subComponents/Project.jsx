@@ -10,7 +10,7 @@ export default function Project() {
       <div className="flex-col justify-center align-middle">
         <section className="flex md:justify-start align-middle mb-6  max-md:justify-center ">
           <h1 className="text-center font-bold text-lg border-b-4 border-primary-golden border-opacity-80 pb-1 px-4">
-            Project
+            Projects
           </h1>
         </section>
         <main>

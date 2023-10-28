@@ -23,7 +23,7 @@ export default function Sidebar() {
           <section className="bg-light-dark rounded-2xl p-3 mr-5">
             <Avatar
               alt="Acharya Manish"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-zgvB00geDVBZndlShmCPStMLjUcUHhvKz5v7jQ9lQh0ICxcrQISN-_QwaItOoySB3pw&usqp=CAU"
+              src="https://avatars.githubusercontent.com/u/100832817?v=4"
               sx={{ width: 70, height: 70 }}
             />
           </section>
