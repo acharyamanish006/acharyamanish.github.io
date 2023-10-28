@@ -65,7 +65,7 @@ export default function Sidebar() {
           ))}
         </footer>
         <div
-          className={`absolute top-3 right-4 cursor-pointer text-primary-golden `}
+          className={`absolute top-3 right-4 cursor-pointer text-primary-golden md:hidden`}
           onClick={hideSideBar}
         >
           <DehazeIcon />

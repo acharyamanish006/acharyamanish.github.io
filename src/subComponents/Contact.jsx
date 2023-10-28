@@ -1,19 +1,23 @@
 import SendIcon from "@mui/icons-material/Send";
+import Navbar from "../Components/Navbar";
 export default function Contact() {
   return (
-    <div className="bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white  max-md:ml-5 max-md:mb-16">
+    <div className="relative bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mr-0 max-md:p-0 max-md:mb-16 max-md:w-fit">
+      <Navbar />
       <div className="flex-col justify-center align-middle">
-        <section>
-          <h1 className="text-center font-bold text-lg ">Contact</h1>
+        <section className="flex justify-start align-middle mb-6">
+          <h1 className="text-center font-bold text-lg border-b-4 border-primary-golden border-opacity-80 pb-1 px-4">
+            Contact
+          </h1>
         </section>
-        <main>
-          <form className="flex-col mt-11">
-            <div className="flex justify-between max-md:flex-col ">
+        <main className="flex justify-center">
+          <form className="flex-col mt-11 justify-center items-center">
+            <div className="flex justify-between max-md:flex-col  ">
               <input
                 type="text"
                 name=""
                 placeholder="Full Name"
-                className="bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mb-6"
+                className="bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mb-6 "
               />
               <input
                 type="email"

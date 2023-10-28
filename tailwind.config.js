@@ -9,6 +9,7 @@ export default {
         "nav-black": "rgba(18, 18, 18, 0.747)",
         "text-white": "#FAFAFA",
         "primary-golden": "#FFD16A",
+        "shadow-golden": "#ffd06a21",
         "primary-black": "#1E1E1F",
         "secondary-black": "#2B2B2C",
       },
