@@ -1,9 +1,12 @@
 import SendIcon from "@mui/icons-material/Send";
-import Navbar from "../Components/Navbar";
+import ComponentNav from "../Components/ComponentNav";
+// import Navbar from "../Components/Navbar";
 export default function Contact() {
   return (
-    <div className="containerTransition relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mr-0 max-md:p-0 max-md:mb-16 ">
-      <Navbar />
+    <div className="containerTransition  bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mr-0 max-md:p-0 max-md:mb-16 ">
+      <div className="max-md:hidden">
+        <ComponentNav />
+      </div>
       <div className="flex-col justify-center align-middle">
         <section className="flex md:justify-start align-middle md:mb-12 max-md:justify-center max-md:mt-3">
           <h1 className="text-center font-bold text-lg border-b-4 border-primary-golden border-opacity-80 pb-1 px-4">

@@ -1,11 +1,14 @@
-import Navbar from "../Components/Navbar";
+import ComponentNav from "../Components/ComponentNav";
+// import Navbar from "../Components/Navbar";
 import { skills } from "../data/skills";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
     <div className="containerTransition relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2 max-md:mx-1">
-      <Navbar />
+      <div className="max-md:hidden">
+        <ComponentNav />
+      </div>
       <div className="flex-col justify-center align-middle">
         <section className="flex md:justify-start align-middle mb-6   max-md:justify-center">
           <h1 className="text-center font-bold text-lg border-b-4 border-primary-golden border-opacity-80 pb-1 px-4">
