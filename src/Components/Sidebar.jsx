@@ -14,7 +14,7 @@ export default function Sidebar() {
   }
   return (
     <div
-      className={`relative bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:my-8  ${
+      className={`relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:my-8  ${
         hide ? "px-10" : ""
       }`}
     >
@@ -60,7 +60,9 @@ export default function Sidebar() {
         >
           {mediaHandles.map((handlers) => (
             <p key={handlers.icon} className="mr-3">
-              <handlers.icon />
+              <a href={handlers.link} target="_blank" rel="noreferrer">
+                <handlers.icon />
+              </a>
             </p>
           ))}
         </footer>

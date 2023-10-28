@@ -4,10 +4,10 @@ import { skills } from "../data/skills";
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
-    <div className="relative bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white w-1/2">
+    <div className="relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2 max-md:mx-1">
       <Navbar />
       <div className="flex-col justify-center align-middle">
-        <section className="flex justify-start align-middle mb-6  ">
+        <section className="flex md:justify-start align-middle mb-6   max-md:justify-center">
           <h1 className="text-center font-bold text-lg border-b-4 border-primary-golden border-opacity-80 pb-1 px-4">
             About
           </h1>
@@ -30,8 +30,10 @@ export default function About() {
               web experiences and love pushing the boundaries of my skills.
             </p>
           </div>
-          <div className="mt-5">
-            <h1 className="font-bold text-xl ml-5 mb-3">Skills</h1>
+          <div className="mt-5 ">
+            <h1 className="font-bold text-xl ml-5 mb-3 border-b-2 border-primary-golden border-opacity-60 w-fit px-3">
+              Skills
+            </h1>
             <div className="grid grid-cols-2 max-md:grid-cols-1 ">
               {skills.map((data) => (
                 <div

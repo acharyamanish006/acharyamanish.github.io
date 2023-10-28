@@ -8,22 +8,22 @@ export const skills = [
     category: "Front-End Development",
     icon: WebIcon,
     items: [
-      "HTML5, CSS3",
-      "JavaScript (ES6+)",
-      "React, Next.js",
-      "Responsive Web Design",
-      "State Management (Redux, Mobx)",
+      "- HTML5, CSS3",
+      "- JavaScript (ES6+)",
+      "- React, Next.js",
+      "- Responsive Web Design",
+      "- State Management (Redux, Mobx)",
     ],
   },
   {
     category: "Back-End Development",
     icon: TerminalIcon,
     items: [
-      "Node.js",
-      "Express.js",
-      "Go",
-      "RESTful API Design",
-      "Authentication and Authorization",
+      "- Node.js",
+      "- Express.js",
+      "- Go",
+      "- RESTful API Design",
+      "- Authentication and Authorization",
     ],
   },
   {
@@ -31,16 +31,16 @@ export const skills = [
     icon: StorageIcon,
 
     items: [
-      "MongoDB",
-      "Data Modeling",
-      "Query Optimization",
-      "Data Integration",
+      "- MongoDB",
+      "- Data Modeling",
+      "- Query Optimization",
+      "- Data Integration",
     ],
   },
   {
     category: "Others",
     icon: GitHubIcon,
 
-    items: ["Git", "GitHub", "Vercel"],
+    items: ["- Git", "- GitHub", "- Vercel"],
   },
 ];
