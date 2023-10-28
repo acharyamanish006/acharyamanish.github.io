@@ -2,7 +2,7 @@ import Navbar from "../Components/Navbar";
 
 export default function Resume() {
   return (
-    <div className="relative bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mx-1">
+    <div className="containerTransition relative bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mx-1">
       <Navbar />
       <div className="flex-col justify-center align-middle">
         <section className="flex md:justify-start align-middle mb-6  max-md:justify-center">

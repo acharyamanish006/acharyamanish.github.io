@@ -2,7 +2,7 @@ import SendIcon from "@mui/icons-material/Send";
 import Navbar from "../Components/Navbar";
 export default function Contact() {
   return (
-    <div className="relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mr-0 max-md:p-0 max-md:mb-16 ">
+    <div className="containerTransition relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mr-0 max-md:p-0 max-md:mb-16 ">
       <Navbar />
       <div className="flex-col justify-center align-middle">
         <section className="flex md:justify-start align-middle md:mb-12 max-md:justify-center max-md:mt-3">

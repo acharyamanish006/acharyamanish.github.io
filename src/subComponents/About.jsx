@@ -4,7 +4,7 @@ import { skills } from "../data/skills";
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
-    <div className="relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2 max-md:mx-1">
+    <div className="containerTransition relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2 max-md:mx-1">
       <Navbar />
       <div className="flex-col justify-center align-middle">
         <section className="flex md:justify-start align-middle mb-6   max-md:justify-center">

@@ -5,7 +5,7 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 
 export default function Project() {
   return (
-    <div className="relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2   max-md:my-6 max-md:mx-1">
+    <div className="containerTransition relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2   max-md:my-6 max-md:mx-1">
       <Navbar />
       <div className="flex-col justify-center align-middle">
         <section className="flex md:justify-start align-middle mb-6  max-md:justify-center ">
@@ -28,7 +28,7 @@ export default function Project() {
                 >
                   <img
                     src={data.image}
-                    alt=""
+                    alt="./img/avatar.jpg"
                     className="hover:opacity-60 rounded-md"
                   />
                   <div className="absolute w-full h-full  flex justify-center items-center opacity-0 hover:opacity-80 hover:bg-nav-black z-10">
