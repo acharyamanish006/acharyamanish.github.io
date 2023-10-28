@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar";
 import { projects } from "../data/project";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 
 export default function Project() {
   return (
@@ -23,13 +24,16 @@ export default function Project() {
                   href={data.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex justify-center items-center"
+                  className="flex justify-center items-center relative"
                 >
                   <img
                     src={data.image}
                     alt=""
                     className="hover:opacity-60 rounded-md"
                   />
+                  <div className="absolute w-full h-full  flex justify-center items-center opacity-0 hover:opacity-80 hover:bg-nav-black z-10">
+                    <VisibilityIcon />
+                  </div>
                 </a>
                 <div className="flex-col justify-center items-center pt-4">
                   <div className="flex justify-center">

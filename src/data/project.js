@@ -4,7 +4,7 @@ export let projects = [
     description:
       "A Full-Stack Ecommerce application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-zgvB00geDVBZndlShmCPStMLjUcUHhvKz5v7jQ9lQh0ICxcrQISN-_QwaItOoySB3pw&usqp=CAU",
+      "https://github.com/acharyamanish006/MERN-Ecommerce/assets/100832817/af17ad5f-55fc-467d-99f5-ef4339b2dbdc",
     github: "https://github.com/acharyamanish006/MERN-Ecommerce",
 
     link: "https://graphic-card.onrender.com/",
@@ -13,25 +13,25 @@ export let projects = [
     name: "ROOM",
     description: "Room - A Zoom-like Clone with WebRTC",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-zgvB00geDVBZndlShmCPStMLjUcUHhvKz5v7jQ9lQh0ICxcrQISN-_QwaItOoySB3pw&usqp=CAU",
+      "https://github.com/acharyamanish006/ROOM/assets/100832817/4617e810-4e0b-467c-948e-bfa134619345",
     github: "https://github.com/acharyamanish006/ROOM",
-    link: "../",
+    link: "https://room-acharyamanish006.vercel.app/",
   },
   {
     name: "Discord Clone",
     description:
       "A clone of the popular chat and communication platform, Discord. This project aims to replicate the core features of Discord for learning and development purposes.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-zgvB00geDVBZndlShmCPStMLjUcUHhvKz5v7jQ9lQh0ICxcrQISN-_QwaItOoySB3pw&usqp=CAU",
+      "https://github.com/acharyamanish006/Discord_Clone/assets/100832817/210c6e9a-3e79-4bc4-9459-b74127ee9069",
     github: "https://github.com/acharyamanish006/Discord_Clone",
-    link: "../",
+    link: "https://discord-clone-ipy8.vercel.app/",
   },
   {
     name: "End_Point",
     description:
       "End_Point is an easy-to-use tool to organize your ideas and projects into visual boards.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-zgvB00geDVBZndlShmCPStMLjUcUHhvKz5v7jQ9lQh0ICxcrQISN-_QwaItOoySB3pw&usqp=CAU",
+      "https://github.com/acharyamanish006/End_Point/assets/100832817/8765499f-697a-44d4-b2a4-5e51200127fe",
     github: "https://github.com/acharyamanish006/End_Point",
     link: "https://end-point.onrender.com/",
   },
