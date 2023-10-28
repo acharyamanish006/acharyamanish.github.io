@@ -9,8 +9,8 @@ import Resume from "./subComponents/Resume";
 
 function App() {
   return (
-    <div className=" bg-bg-black w-screen h-screen text-text-white flex justify-center items-center max-md:flex-col max-md:w-full max-md:h-full max-md:pb-60 ">
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className=" appContainer bg-bg-black w-screen h-screen text-text-white flex justify-center items-center max-mobile:flex-col max-md:w-full max-md:h-full max-md:pb-60">
         <Sidebar />
         {/* <Navbar /> */}
         <Routes>
@@ -19,8 +19,8 @@ function App() {
           <Route path="/Project" element={<Project />} />
           <Route path="/Resume" element={<Resume />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 

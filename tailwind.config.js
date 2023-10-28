@@ -13,6 +13,10 @@ export default {
         "primary-black": "#1E1E1F",
         "secondary-black": "#2B2B2C",
       },
+      screens: {
+        mobile: "700px",
+        // => @media (min-width: 992px) { ... }
+      },
     },
   },
   plugins: [],
