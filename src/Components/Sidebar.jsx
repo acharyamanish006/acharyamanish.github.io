@@ -8,14 +8,15 @@ import { useState } from "react";
 
 export default function Sidebar() {
   const [hide, setHide] = useState(false);
+
   function hideSideBar() {
-    setHide(() => !hide);
+    setHide(!hide);
     // console.log(hide);
   }
   return (
     <div
       className={`relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:my-8  ${
-        hide ? "px-10" : ""
+        hide ? "px-10" : " "
       }`}
     >
       <div className="flex-col justify-center align-middle">

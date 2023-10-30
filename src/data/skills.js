@@ -41,6 +41,6 @@ export const skills = [
     category: "Others",
     icon: GitHubIcon,
 
-    items: ["- Git", "- GitHub", "- Vercel"],
+    items: ["- Git", "- GitHub", "- Docker", "- Vercel"],
   },
 ];
