@@ -11,9 +11,7 @@ function App() {
   return (
     <div className=" appContainer  bg-bg-black w-screen h-screen text-text-white flex justify-center items-center max-mobile:flex-col max-md:w-full max-md:h-full max-md:pb-60">
       <Sidebar />
-      {/* <div className="md:hidden"> */}
       <Navbar />
-      {/* </div> */}
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
