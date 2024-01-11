@@ -9,7 +9,7 @@ import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div className=" appContainer  bg-bg-black w-screen h-screen text-text-white flex justify-center items-center max-mobile:flex-col max-md:w-full max-md:h-full max-md:pb-60">
+    <div className=" appContainer  bg-bg-black w-screen h-screen text-text-white flex justify-center items-center max-mobile:flex-col max-md:w-full max-md:h-fit max-md:pb-60">
       <Sidebar />
       <Navbar />
       <Routes>

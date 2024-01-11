@@ -6,7 +6,7 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 
 export default function Project() {
   return (
-    <div className="containerTransition relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2   max-md:my-6 max-md:mx-1">
+    <div className="containerTransition w-full h-screen relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2   max-md:my-6 max-md:mx-1 ">
       <div className="max-md:hidden">
         <ComponentNav />
       </div>

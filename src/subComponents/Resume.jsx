@@ -1,9 +1,32 @@
 import ComponentNav from "../Components/ComponentNav";
+import useWindowDimensions from "../Hooks/useWindowDimensions";
 // import Navbar from "../Components/Navbar";
 
 export default function Resume() {
+
+
+  const { height, width } = useWindowDimensions();
+  
+  
+  // const [Width,setWidth] = useState()
+
+
+// setWidth(width)
+
+
+const IFrames = ()=>{
+  if(width >1100){
+
+    return <iframe height='700px' width='700px' src="Manish.pdf"  ></iframe>
+  }
+  else{
+
+    return <iframe height='500px' width='500px' src="Manish.pdf"  ></iframe>
+  }
+}
+
   return (
-    <div className="containerTransition relative bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mx-1">
+    <div className=" w-fit h-fit relative bg-primary-black flex justify-center items-center mr-5 p-5 rounded-xl border border-opacity-10 border-white max-md:mx-1">
       <div className="max-md:hidden">
         <ComponentNav />
       </div>
@@ -13,13 +36,15 @@ export default function Resume() {
             Resume
           </h1>
         </section>
-        <main>
-          <form>
-            <input type="text" name="" id="" />
-            <input type="email" name="" id="" />
-            <input type="text" name="" id="" />
-            <input type="submit" value="" />
-          </form>
+        <main className="w-fit h-fit">
+          <IFrames/>
+          {/* <div className="block  w-full">
+            <iframe width="100%" height="100%"
+              src="Manish.pdf"
+               className="absolute top-0 left-0">
+            </iframe>
+        </div> */}
+          {/* <iframe src="Manish.pdf" className="w-full h-full border-none"></iframe> */}
         </main>
       </div>
     </div>
