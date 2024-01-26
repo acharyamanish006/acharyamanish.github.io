@@ -5,6 +5,9 @@ import { skills } from "../data/skills";
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
+  
+
+    
     <div className="containerTransition relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2 max-md:mx-1">
       <div className="max-md:hidden">
         <ComponentNav />
@@ -70,5 +73,6 @@ export default function About() {
         </main>
       </div>
     </div>
+
   );
 }

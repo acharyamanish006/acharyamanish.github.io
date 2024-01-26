@@ -2,13 +2,19 @@
 *{
     transition: all ease-in-out 300ms;
     box-sizing: border-box;
+    overflow-x: hidden;
+    scrollbar-width: none;
     /* background-color: #ffd06a21; */
-    /* overflow-y: scroll;
-    overflow-x: hidden; */
+     overflow-y:visible;
+    /* overflow-x: hidden; */ 
     /* overflow-x: hidden; */
     /* background-color: rgba(18, 18, 18, 0.747) */
     /*  */
 }
+*::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+  }
 
 .containerTransition{
         animation: fadeInAnimation ease-in-out 500ms;

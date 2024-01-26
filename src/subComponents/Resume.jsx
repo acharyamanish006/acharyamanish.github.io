@@ -12,16 +12,17 @@ export default function Resume() {
 
 
 // setWidth(width)
+console.log(height)
 
 
 const IFrames = ()=>{
   if(width >1100){
 
-    return <iframe height='700px' width='700px' src="Manish.pdf"  ></iframe>
+    return <iframe height='500px' width='600px' src="Manish.pdf"  ></iframe>
   }
   else{
 
-    return <iframe height='500px' width='500px' src="Manish.pdf"  ></iframe>
+    return <iframe height='400px' width='300px' src="Manish.pdf"  ></iframe>
   }
 }
 

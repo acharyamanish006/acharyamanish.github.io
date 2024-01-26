@@ -27,12 +27,13 @@ export let projects = [
     link: "https://discord-clone-ipy8.vercel.app/",
   },
   {
-    name: "End_Point",
+    name: "LiteScript",
     description:
-      "End_Point is an easy-to-use tool to organize your ideas and projects into visual boards.",
+      "Welcome to the LiteScript Interpreter, a project dedicated to building an interpreter for the LiteScript programming language using TypeScript.",
     image:
-      "https://github.com/acharyamanish006/End_Point/assets/100832817/8765499f-697a-44d4-b2a4-5e51200127fe",
-    github: "https://github.com/acharyamanish006/End_Point",
-    link: "https://end-point.onrender.com/",
+      "https://github.com/acharyamanish006/LiteScript/assets/100832817/200c8cfd-477b-43ce-973e-e881e2a140ba",
+    github: "https://github.com/acharyamanish006/LiteScript",
+    link: "https://www.npmjs.com/package/@acharyamanish/litescript",
   },
 ];
+
