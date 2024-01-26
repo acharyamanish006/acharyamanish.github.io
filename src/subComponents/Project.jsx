@@ -32,7 +32,7 @@ export default function Project() {
                   <img
                     src={data.image}
                     alt="./img/avatar.jpg"
-                    className="hover:opacity-60 rounded-md"
+                    className="hover:opacity-60 rounded-md h-24"
                   />
                   <div className="absolute w-full h-full  flex justify-center items-center opacity-0 hover:opacity-80 hover:bg-nav-black z-10">
                     <VisibilityIcon />
