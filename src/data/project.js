@@ -10,21 +10,19 @@ export let projects = [
     link: "https://graphic-card.onrender.com/",
   },
   {
-    name: "ROOM",
-    description: "Room - A Zoom-like Clone with WebRTC",
-    image:
-      "https://github.com/acharyamanish006/ROOM/assets/100832817/4617e810-4e0b-467c-948e-bfa134619345",
-    github: "https://github.com/acharyamanish006/ROOM",
-    link: "https://room-acharyamanish006.vercel.app/",
+    name: "SIMP",
+    description: "Simp is a simple mathematical Interpreter written in JavaScript. It supports basic arithmetic operations including addition, subtraction, multiplication, and division respecting the correct order of operations.",
+    image:"https://github.com/acharyamanish006/SIMP/assets/100832817/94d693ca-b805-4458-9cbf-6e05477301d1",
+    github: "https://github.com/acharyamanish006/SIMP",
+    link: "https://www.npmjs.com/package/@acharyamanish/simp",
   },
   {
-    name: "Discord Clone",
+    name: "ByteMix",
     description:
-      "A clone of the popular chat and communication platform, Discord. This project aims to replicate the core features of Discord for learning and development purposes.",
-    image:
-      "https://github.com/acharyamanish006/Discord_Clone/assets/100832817/210c6e9a-3e79-4bc4-9459-b74127ee9069",
-    github: "https://github.com/acharyamanish006/Discord_Clone",
-    link: "https://discord-clone-ipy8.vercel.app/",
+      "ByteMix is a lightweight and versatile JavaScript game library designed to simplify game development with a focus on performance and flexibility.",
+    image:"https://github.com/acharyamanish006/ByteMix/assets/100832817/ae74770b-2eee-48bd-9636-3aef99968f31",
+    github: "https://github.com/acharyamanish006/ByteMix",
+    link: "https://www.npmjs.com/package/bytemix",
   },
   {
     name: "LiteScript",
