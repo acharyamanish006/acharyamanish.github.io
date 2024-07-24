@@ -5,9 +5,6 @@ import { skills } from "../data/skills";
 /* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
-  
-
-    
     <div className="containerTransition relative bg-primary-black flex justify-center items-center md:mr-5 p-5 rounded-xl border border-opacity-10 border-white md:w-1/2 max-md:mx-1">
       <div className="max-md:hidden">
         <ComponentNav />
@@ -21,11 +18,16 @@ export default function About() {
         <main>
           <div>
             <p className="opacity-80 mb-4">
-              I'm a full stack web developer with expertise in HTML, CSS, and
-              JavaScript. I specialize in modern frameworks like React and
-              Next.js for the front-end, and I use Node.js, Express.js, and Go
-              for back-end development. MongoDB is my preferred database
-              solution.
+              Passionate software engineer with expertise in JavaScript,
+              TypeScript, Node.js, and a wide range of web technologies. I am
+              fascinated with compilers and interpreters and enjoy building them
+              to deepen my understanding of programming languages. 
+              
+              <blockquote className="mt-2">
+                <i>
+              “What I cannot create, I do not understand.” – Richard Feynman
+                </i>
+              </blockquote>
             </p>
             <p className="opacity-80">
               I'm passionate about creating seamless web experiences and thrive
@@ -73,6 +75,5 @@ export default function About() {
         </main>
       </div>
     </div>
-
   );
 }

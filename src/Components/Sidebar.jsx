@@ -31,7 +31,7 @@ export default function Sidebar() {
           <div className="flex-col ">
             <p className="font-bold text-xl mb-3">Acharya Manish</p>
             <p className="bg-secondary-black text-center rounded-md py-1 opacity-80">
-              web developer
+            Software Engineer
             </p>
           </div>
         </div>
